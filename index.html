@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Mansão Abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="mansao.jpg" alt="Mansão Abandonada">
+            <p>Você encontra uma mansão antiga e abandonada no meio da floresta. Curioso, decide explorar o lugar.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na mansão</button>
+            <button class="btn-proximo" data-proximo="2">Sair e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra na mansão e encontra duas escadas: uma para o sótão e outra para o porão.</p>
+            <button class="btn-proximo" data-proximo="3">Subir para o sótão</button>
+            <button class="btn-proximo" data-proximo="4">Descer para o porão</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide sair e voltar para casa, mas sente que algo está te observando.</p>
+            <img src="saindo da manssao.jpg" alt="Saindo da mansão">
+            <p>A sensação de estar sendo seguido nunca o abandona.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No sótão, você encontra uma caixa com um cadeado. Dentro dela, um diário revela que a família que morava ali foi assassinada.</p>
+            <button class="btn-proximo" data-proximo="5">Procurar mais informações no sótão</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para o andar de baixo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>No porão, você encontra um painel de controle com botões e alavancas. Mexer nele faz a porta da mansão se trancar.</p>
+            <button class="btn-proximo" data-proximo="7">Mexer no painel de controle</button>
+            <button class="btn-proximo" data-proximo="8">Explorar o porão sem mexer no painel</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Explorando mais no sótão, você começa a ouvir sussurros e sente uma presença estranha. Decide sair correndo.</p>
+            <img src="sotao 2.jpg" alt="Presença Estranha">
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao descer, você percebe que a porta está trancada e que passos podem ser ouvidos no andar de cima. Você está preso.</p>
+            <img src="porta.jpg" alt="Porta Trancada">
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você descobre uma passagem secreta no porão, mas algo parece estar te seguindo pelos corredores escuros.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a passagem secreta</button>
+            <button class="btn-proximo" data-proximo="10">Tentar sair da mansão pela janela</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você explora o porão sem mexer no painel e encontra uma sombra ameaçadora. Decide voltar para o andar de cima rapidamente.</p>
+            <button class="btn-proximo" data-proximo="6">Voltar para o andar de baixo</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>A passagem leva a um túnel escuro que parece interminável. Você sente que está sendo seguido e a tensão aumenta.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar pelo túnel</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você tenta sair pela janela, mas ela está trancada. A presença ao seu redor parece cada vez mais próxima.</p>
+            <button class="btn-proximo" data-proximo="12">Procurar outra forma de sair</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>O túnel termina em um espaço escuro e claustrofóbico. Você encontra uma saída, mas a sensação de ser vigiado nunca o abandona.</p>
+            <img src="img/cenario-passo11-tunel.png" alt="Saída do túnel">
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você encontra uma forma de sair da mansão e volta para casa, mas a sensação de estar sendo observado persiste.</p>
+            <img src="img/cenario-passo12-voltar-casa.png" alt="Voltando para casa">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
